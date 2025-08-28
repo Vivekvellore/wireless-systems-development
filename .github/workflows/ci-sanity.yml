@@ -1,0 +1,9 @@
+name: Repo Sanity
+on: [push, pull_request]
+jobs:
+  sanity:
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v4
+      - name: Tree check
+        run: ls -la

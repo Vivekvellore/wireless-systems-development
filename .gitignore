@@ -1,0 +1,26 @@
+# macOS
+.DS_Store
+# Editors
+.vscode/
+.idea/
+# Build
+build/
+dist/
+*.o
+*.elf
+*.bin
+*.dSYM/
+# Python
+.venv/
+__pycache__/
+*.pyc
+# Xcode
+*.xcworkspace
+*.xcodeproj/**
+DerivedData/
+# Zephyr/ESP-IDF
+modules/
+zephyr/
+build-*/
+# Node (if used later)
+node_modules/
